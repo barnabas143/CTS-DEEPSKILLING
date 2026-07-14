@@ -1,26 +1,31 @@
-# Week 4
+# Week 4 - Module 07: Microservices
 
-## Module 07 - Microservices using ASP.NET Core Web API
+## Exercise 1 - JWT Authentication
 
-### Mandatory Exercise Completed
+### Objective
+Implement JWT (JSON Web Token) Authentication in ASP.NET Core Web API.
 
-- Exercise 1 - JWT Authentication in ASP.NET Core Web API
+### Features Implemented
+- JWT Token Generation
+- Login API
+- Protected API using Authorize Attribute
+- Swagger Authorization
+- JWT Validation
 
-### Topics Covered
+### APIs
+- POST /api/Auth/login
+- GET /api/Auth/secure
 
-- ASP.NET Core Web API
-- JWT Authentication
-- Authorization
-- Secure API Endpoints
-- Swagger Authentication
+### Test Result
+Authentication tested successfully using Swagger UI.
 
-### Folder Structure
+### Output
+Protected API returned:
 
-```
-Module-07-Microservices/
-    Exercise-1-JWTAuthenticationApi/
-```
+Welcome! This is a protected API.
 
-### Status
+Status Code: 200 OK
 
-✅ Week 4 Mandatory Exercises Completed
+### Output
+LoginSuccess.png
+JWTAuthenticationSuccess.png
